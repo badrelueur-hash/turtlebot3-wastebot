@@ -1,0 +1,53 @@
+[0.056s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/badrelueur/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2
+[0.257s] -- The C compiler identification is GNU 13.3.0
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.398s] -- Detecting C compiler ABI info
+[0.528s] -- Detecting C compiler ABI info - done
+[0.541s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.541s] -- Detecting C compile features
+[0.542s] -- Detecting C compile features - done
+[0.556s] -- Detecting CXX compiler ABI info
+[0.722s] -- Detecting CXX compiler ABI info - done
+[0.746s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.746s] -- Detecting CXX compile features
+[0.747s] -- Detecting CXX compile features - done
+[0.756s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.078s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.439s] -- Configuring done (1.4s)
+[1.442s] -- Generating done (0.0s)
+[1.444s] -- Build files have been written to: /home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2
+[1.451s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/badrelueur/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2
+[1.453s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[1.502s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[1.504s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2
+[1.523s] -- Install configuration: ""
+[1.523s] -- Execute custom install script
+[1.523s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.541s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.553s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.570s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.583s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.596s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.608s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.622s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.639s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.656s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.672s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.688s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.698s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.711s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.721s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.738s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.750s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.767s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.782s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.796s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.821s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.849s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.886s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.931s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.967s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.990s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[2.012s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[2.037s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/badrelueur/turtlebot3_ws/build/turtlebot3_navigation2

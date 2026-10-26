@@ -1,0 +1,45 @@
+[0.055s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/badrelueur/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer
+[0.233s] -- The C compiler identification is GNU 13.3.0
+[0.352s] -- The CXX compiler identification is GNU 13.3.0
+[0.377s] -- Detecting C compiler ABI info
+[0.493s] -- Detecting C compiler ABI info - done
+[0.509s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.509s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.524s] -- Detecting CXX compiler ABI info
+[0.673s] -- Detecting CXX compiler ABI info - done
+[0.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.700s] -- Detecting CXX compile features
+[0.703s] -- Detecting CXX compile features - done
+[0.709s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.027s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.170s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.420s] -- Configuring done (1.3s)
+[1.426s] -- Generating done (0.0s)
+[1.428s] -- Build files have been written to: /home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer
+[1.437s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/badrelueur/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer
+[1.440s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.490s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.503s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer
+[1.520s] -- Install configuration: ""
+[1.520s] -- Execute custom install script
+[1.520s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.539s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.558s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.572s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.586s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.597s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.613s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.625s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.642s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.653s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.665s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.678s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.697s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.714s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.723s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.735s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.745s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.758s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.771s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.802s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/badrelueur/turtlebot3_ws/build/turtlebot3_cartographer

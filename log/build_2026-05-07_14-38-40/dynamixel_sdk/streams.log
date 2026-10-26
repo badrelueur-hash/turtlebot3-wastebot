@@ -1,0 +1,245 @@
+[0.054s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/badrelueur/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk
+[0.231s] -- The C compiler identification is GNU 13.3.0
+[0.348s] -- The CXX compiler identification is GNU 13.3.0
+[0.371s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.526s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.527s] -- Detecting C compile features - done
+[0.539s] -- Detecting CXX compiler ABI info
+[0.695s] -- Detecting CXX compiler ABI info - done
+[0.712s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.713s] -- Detecting CXX compile features
+[0.715s] -- Detecting CXX compile features - done
+[0.721s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.973s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.103s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.708s] -- Configuring done (1.6s)
+[1.718s] -- Generating done (0.0s)
+[1.721s] -- Build files have been written to: /home/badrelueur/turtlebot3_ws/build/dynamixel_sdk
+[1.728s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/badrelueur/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk
+[1.729s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/badrelueur/turtlebot3_ws/build/dynamixel_sdk -- -j12 -l12
+[1.801s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.802s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[1.802s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[1.821s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[1.821s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[1.831s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[1.831s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[1.831s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[1.831s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[1.831s] [ 50%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.831s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[1.831s] [ 55%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[1.874s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.998s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[2.342s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[2.449s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[2.544s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[2.559s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[2.584s] running egg_info
+[2.584s] creating dynamixel_sdk.egg-info
+[2.638s] writing dynamixel_sdk.egg-info/PKG-INFO
+[2.638s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[2.638s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[2.642s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.714s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[2.789s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.791s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[2.819s] running egg_info
+[2.821s] creating dynamixel_easy_sdk.egg-info
+[2.858s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[2.859s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[2.859s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[2.859s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.870s] [ 94%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.996s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.997s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[3.063s] [ 94%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[4.104s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[4.291s] [100%] Built target dynamixel_sdk
+[4.322s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/badrelueur/turtlebot3_ws/build/dynamixel_sdk -- -j12 -l12
+[4.326s] Invoking command in '/home/badrelueur/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/badrelueur/turtlebot3_ws/build/dynamixel_sdk
+[4.349s] -- Install configuration: ""
+[4.351s] -- Execute custom install script
+[4.353s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[4.377s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[4.403s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[4.428s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[4.462s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[4.485s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[4.519s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[4.548s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[4.564s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[4.584s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[4.596s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[4.607s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[4.622s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[4.636s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[4.648s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[4.667s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[4.677s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[4.687s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[4.698s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[4.714s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[4.732s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[4.743s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[4.756s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[4.771s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[4.782s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[4.793s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[4.806s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[4.818s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[4.829s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[4.848s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[4.858s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[4.867s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[4.885s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[4.899s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[4.913s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[4.925s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[4.941s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[4.959s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[4.972s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[4.986s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[5.000s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[5.022s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[5.044s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[5.056s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[5.076s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[5.096s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[5.120s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[5.144s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[5.169s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[5.197s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[5.219s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[5.245s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[5.273s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[5.294s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[5.311s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[5.321s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[5.331s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[5.342s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[5.358s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[5.372s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[5.386s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[5.410s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[5.430s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[5.453s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[5.472s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[5.487s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[5.502s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[5.529s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[5.551s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[5.570s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[5.592s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[5.613s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[5.624s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[5.635s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[5.644s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[5.655s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[5.667s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[5.681s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[5.697s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[5.708s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[5.725s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[5.737s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[5.752s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[5.765s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[5.780s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[5.793s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[5.807s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[5.819s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[5.835s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[5.852s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[5.863s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[5.875s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[5.891s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[5.911s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[5.931s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[5.951s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[5.967s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[5.986s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+[6.002s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[6.015s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+[6.034s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[6.055s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+[6.073s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[6.091s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[6.106s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+[6.128s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+[6.146s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+[6.164s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+[6.182s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+[6.200s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+[6.216s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+[6.231s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+[6.247s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+[6.260s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[6.272s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[6.287s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[6.301s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[6.316s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[6.333s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[6.350s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[6.367s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[6.378s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+[6.395s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[6.407s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[6.422s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[6.440s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[6.457s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py
+[6.470s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.cpp
+[6.480s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py
+[6.492s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.cpp
+[6.508s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py
+[6.519s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py
+[6.529s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[6.544s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py
+[6.558s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.cpp
+[6.578s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py
+[6.591s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.cpp
+[6.604s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py
+[6.623s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[6.636s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[6.654s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[6.667s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[6.680s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[6.693s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[6.707s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[6.727s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[6.746s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[6.765s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[6.784s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[6.802s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[6.818s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[6.834s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[6.849s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[6.865s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.880s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[6.891s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[6.902s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[6.915s] -- Symlinking: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[6.925s] -- Installing: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[7.030s] Listing '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py'...
+[7.031s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[7.032s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[7.032s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py'...
+[7.113s] Listing '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk'...
+[7.114s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py'...
+[7.114s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py'...
+[7.114s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py'...
+[7.114s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py'...
+[7.114s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[7.114s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py'...
+[7.115s] Compiling '/home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py'...
+[7.123s] -- Installing: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[7.123s] -- Installing: /home/badrelueur/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[7.126s] Invoked command in '/home/badrelueur/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/badrelueur/turtlebot3_ws/build/dynamixel_sdk

@@ -1,0 +1,12 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/badrelueur/turtlebot3_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/badrelueur/turtlebot3_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/badrelueur/turtlebot3_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/badrelueur/turtlebot3_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/badrelueur/turtlebot3_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/badrelueur/turtlebot3_ws/src/turtlebot3_msgs:srv/Goal.srv",
+    "/home/badrelueur/turtlebot3_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

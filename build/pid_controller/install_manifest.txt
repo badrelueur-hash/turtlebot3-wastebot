@@ -1,0 +1,16 @@
+/home/badrelueur/turtlebot3_ws/install/pid_controller/lib/pid_controller/pid_rotation
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/ament_index/resource_index/package_run_dependencies/pid_controller
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/ament_index/resource_index/parent_prefix_path/pid_controller
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/environment/ament_prefix_path.sh
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/environment/ament_prefix_path.dsv
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/environment/path.sh
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/environment/path.dsv
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/local_setup.bash
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/local_setup.sh
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/local_setup.zsh
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/local_setup.dsv
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/package.dsv
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/ament_index/resource_index/packages/pid_controller
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig.cmake
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig-version.cmake
+/home/badrelueur/turtlebot3_ws/install/pid_controller/share/pid_controller/package.xml
